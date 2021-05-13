@@ -70,27 +70,30 @@
     margin-top: 16%;
 }
 
-.ellipse_back{
-    background-image: url('../../../assets/img/Ellipse-1.png');
-    background-position-y: 78%;
-    background-position-x: 100%;
+.ellipse{
+    max-width: 100%;
+    position: relative;
+    min-width: 15vw;
+    min-height: 80vh;
+    left: 30%;
+    background-position-y: 100%;
+    background-image: url('../../../assets/img/Ellipseback-2.png');
     background-repeat: no-repeat;
-    z-index: 100;
+    background-size: 50%;
+    z-index: 1;
 }
 
-.other_ellipsis-back{
-    background-image: url('../../../assets/img/Ellipse-back.png');
-    background-repeat: no-repeat;
-    height: 362px;
+.img-2{
     position: absolute;
-    top: 51%;
-    width: 100%;
-    left: 18%;
-    z-index: -1;
+    max-width: 100%;
+    left: 30%; min-width: 15vw;
+    min-height: 100vh; 
 }
 
-.other_ellipse{
-    margin-right: -35rem;
-    margin-top: 23rem;
-    z-index: 100;
+.negative_top{
+    top: -12vh;
+    background-image: url('../../../assets/img/Shape-1.png');
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-size: contain;
 }
