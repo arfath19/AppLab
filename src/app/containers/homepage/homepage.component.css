@@ -18,9 +18,11 @@
     left: 15%;
 }
 
-/* .side_img{
-    height: 100vh;
-} */
+.side_img{
+    /* height: 100vh;   */
+    min-width: 15vw;
+    min-height: 80vh;
+}
 
 .main_heading{
     font-weight: 600;

@@ -94,3 +94,31 @@
     margin-top: 23rem;
     z-index: 100;
 }
+
+.fishes{
+    max-width: 100%;
+    position: relative;
+    min-width: 15vw;
+    min-height: 80vh;
+    left: 30%;
+    background-position-y: 90%;
+    background-image: url('../../../assets/img/Ellipseback-2.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    z-index: 1;
+}
+
+.fish{
+    position: absolute;
+    max-width: 100%;
+    left: 30%; min-width: 15vw;
+    min-height: 100vh; 
+}
+
+.negative_top{
+    top: -12vh;
+    background-image: url('../../../assets/img/Shape-1.png');
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-size: contain;
+}
