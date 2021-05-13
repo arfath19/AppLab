@@ -70,20 +70,20 @@
     margin-top: 16%;
 }
 
-.fishes{
+.ellipse{
     max-width: 100%;
     position: relative;
     min-width: 15vw;
     min-height: 80vh;
     left: 30%;
-    background-position-y: 90%;
+    background-position-y: 100%;
     background-image: url('../../../assets/img/Ellipseback-2.png');
     background-repeat: no-repeat;
     background-size: 50%;
     z-index: 1;
 }
 
-.fish{
+.img-2{
     position: absolute;
     max-width: 100%;
     left: 30%; min-width: 15vw;
