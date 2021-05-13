@@ -1,0 +1,46 @@
+.footer-detail{
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    
+}
+
+.footer_heading{
+    font-size: 38px;
+    line-height: 48px;
+    color: #242f51;
+    font-weight: 600;
+}
+.footer_position{
+    /* margin-left: 12rem; */
+    margin-top: 9rem;
+}
+
+.links>*{
+    padding: 25px;
+}
+
+.different_background{
+    background-color: #09142e;
+    margin-top: -45px;
+    width: 100%;
+}
+
+.logo_spacing{
+    margin-top: 116px;
+}
+
+.spacing{
+    margin: 0 18px;
+}
+.spacing>*{
+    color: #ffffff;
+}
+
+.vertical_spacing{
+    margin-top:52px;
+}
+
+.vertical_spacing-large{
+    margin-top:91px;
+}

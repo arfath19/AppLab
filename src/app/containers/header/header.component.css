@@ -1,0 +1,29 @@
+.holder{
+    padding-top: 40px;
+    color: #242f51;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.seperator{
+    margin: 0  13px ;
+}
+.seperator>*{
+    color: #242f51;
+}
+
+@media (max-width:950px){
+    .holder{
+        width: 100% !important;
+        padding-left: 0;
+    padding-right: 0;
+    }
+}
+
+@media (max-width:840px){
+    .holder{
+        width: 100% !important;
+        padding-left: 0;
+    padding-right: 0;
+    }
+}

@@ -1,0 +1,96 @@
+.detail_heading{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+.detail-text{
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+
+.move_left{
+    margin-left: 12rem;
+    z-index: 999;
+    background-image: url('../../../assets/img/Shape-1.png');
+    background-repeat: no-repeat;
+    background-position-y: 135%;
+    background-position-x: 57%;
+    /* margin-top: -77rem; */
+}
+
+.fast_heading{
+    font-size: 20px;
+    line-height: 58px;
+    color: #f55767;
+    font-weight: 600;
+}
+
+.proto_heading{
+    font-size: 20px;
+    line-height: 58px;
+    color: #2563ff;
+    font-weight: 600;
+}
+
+.vector_heading{
+    font-size: 20px;
+    line-height: 58px;
+    color: #40975f;
+    font-weight: 600;
+}
+
+.photo_back--1{
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    background-color: #ffecef;
+    text-align: center;margin-top: 6.5rem;
+}
+
+.photo_back--2{
+    width: 88px;
+    height: 89px;
+    border-radius: 44px;
+    text-align: center;
+    background-color: #f4f4ff;margin-top: 6.5rem;
+}
+
+.photo_back--3{
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    text-align: center;margin-top: 6.5rem;
+    background-color: #e4ffee;
+}
+
+.img-center{
+    margin-top: 16%;
+}
+
+.ellipse_back{
+    background-image: url('../../../assets/img/Ellipse-1.png');
+    background-position-y: 78%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.other_ellipsis-back{
+    background-image: url('../../../assets/img/Ellipse-back.png');
+    background-repeat: no-repeat;
+    height: 362px;
+    position: absolute;
+    top: 51%;
+    width: 100%;
+    left: 18%;
+    z-index: -1;
+}
+
+.other_ellipse{
+    margin-right: -35rem;
+    margin-top: 23rem;
+    z-index: 100;
+}
