@@ -70,31 +70,6 @@
     margin-top: 16%;
 }
 
-.ellipse_back{
-    background-image: url('../../../assets/img/Ellipse-1.png');
-    background-position-y: 78%;
-    background-position-x: 100%;
-    background-repeat: no-repeat;
-    z-index: 100;
-}
-
-.other_ellipsis-back{
-    background-image: url('../../../assets/img/Ellipse-back.png');
-    background-repeat: no-repeat;
-    height: 362px;
-    position: absolute;
-    top: 51%;
-    width: 100%;
-    left: 18%;
-    z-index: -1;
-}
-
-.other_ellipse{
-    margin-right: -35rem;
-    margin-top: 23rem;
-    z-index: 100;
-}
-
 .fishes{
     max-width: 100%;
     position: relative;
