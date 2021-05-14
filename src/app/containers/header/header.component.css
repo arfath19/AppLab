@@ -27,3 +27,14 @@
     padding-right: 0;
     }
 }
+
+@media (min-width: 1638px){
+    .seperator{
+        font-size: 2.5rem;
+        margin: 0 2.5rem;
+    }
+
+    .holder>div>img{
+        width: 12%;
+    }
+}
