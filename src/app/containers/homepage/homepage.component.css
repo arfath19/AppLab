@@ -1,6 +1,7 @@
 .ontop__banner{
     float: right;
-    margin-right: 15%;
+    width: 50%;
+    padding-left: 10%;
     margin-top: 4rem;
 }
 
@@ -16,6 +17,8 @@
     position: absolute;
     top: 40%;
     left: 15%;
+    width: 50%;
+    float: left;
 }
 
 .side_img{
@@ -71,7 +74,7 @@ background-color: #feaa25;
     } 
 
     .ontop__text{
-        left: 5%;
+        left: 2%;
     }
 
     .main_heading{
