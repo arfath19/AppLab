@@ -1,4 +1,4 @@
-.detail_heading{
+ .detail_heading{
     font-size: 36px;
     line-height: 46px;
     color: #242f51;
@@ -18,7 +18,6 @@
     background-repeat: no-repeat;
     background-position-y: 135%;
     background-position-x: 57%;
-    /* margin-top: -77rem; */
 }
 
 .fast_heading{
@@ -70,6 +69,14 @@
     margin-top: 16%;
 }
 
+
+
+.img-2{
+    position: absolute;
+    max-width: 100%;
+    left: 30%; min-width: 15vw;
+    min-height: 100vh; 
+}
 .ellipse{
     max-width: 100%;
     position: relative;
@@ -83,17 +90,20 @@
     z-index: 1;
 }
 
-.img-2{
-    position: absolute;
-    max-width: 100%;
-    left: 30%; min-width: 15vw;
-    min-height: 100vh; 
-}
-
 .negative_top{
     top: -12vh;
     background-image: url('../../../assets/img/Shape-1.png');
     background-repeat: no-repeat;
     background-position-y: 90%;
     background-size: contain;
-}
+} 
+.imagebox {
+    width: 50%;
+    float: left;position: relative;
+  }
+  
+  .textbox {
+    width: 50%;
+    float: right;
+    padding-left: 10%;
+  }
