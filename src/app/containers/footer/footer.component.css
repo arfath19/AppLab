@@ -18,6 +18,7 @@
 
 .links>*{
     padding: 25px;
+    width: 50%;
 }
 
 .different_background{
@@ -43,4 +44,38 @@
 
 .vertical_spacing-large{
     margin-top:91px;
+}
+
+@media  screen and  (min-width: 400px) and (max-width:648px){
+    .links>*{
+        padding: 0;
+    }
+
+    .footer_position{
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media  screen and  (min-width: 639px) and (max-width:900px){
+    .links>*{
+        padding: 0;
+    }
+
+    .footer_position{
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
+}
+
+
+@media  screen and  (min-width: 901px) and (max-width:1600px){
+    .links>*{
+        padding: 10px 17px 17px 0;
+    }
+
+    .footer_position{
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
 }
