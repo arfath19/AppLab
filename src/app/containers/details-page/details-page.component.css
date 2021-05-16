@@ -227,6 +227,7 @@
 
     .textbox{
         margin-top: -40px;
+        padding-left: 6%;
     }
 
 
@@ -294,6 +295,10 @@
         margin-bottom: 0px;
     }
 
+    .textbox{
+        padding-left: 8%;
+        margin-top: -15px;
+    }
   
 
     .fast_heading{
@@ -307,7 +312,37 @@
     h3{
         margin-top: 16px;
     }
+    .photo_back--1{
+        width: 65px;
+        height: 65px;
+        border-radius: 50px;
+        margin-top: 5.5rem;
+    }
 
+    .photo_back--1>img{
+        max-width: 70%;
+    }
+
+    .photo_back--2>img{
+        max-width: 70%;
+    }
+    
+    .photo_back--3>img{
+        max-width: 70%;
+    }
+
+    .photo_back--2{
+        width: 65px;
+        height: 65px;
+        border-radius: 50px;
+        margin-top: 5.5rem;
+    }
+    .photo_back--3{
+        width: 65px;
+        height: 65px;
+        border-radius: 50px;
+        margin-top: 5.5rem;
+    }
   
  }
 
