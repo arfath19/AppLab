@@ -46,7 +46,7 @@
     margin-top:91px;
 }
 
-@media  screen and  (min-width: 400px) and (max-width:648px){
+@media  screen and  (min-width: 400px) and (max-width:638px){
     .links>*{
         padding: 0;
     }
@@ -54,6 +54,29 @@
     .footer_position{
         margin-top: 2rem;
         margin-bottom: 6rem;
+    }
+    .footer_heading{
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    .footer-detail{
+        font-size: 13px;
+    line-height: 18px;
+        text-align: justify;
+    }
+
+    .spacing{
+        margin: 0 5px;
+    }
+
+    .vertical_spacing-large{
+        margin-top: 60px;
+        font-size: 13px;
+    }
+
+    .logo_spacing{
+        margin-top: 45px;
     }
 }
 
@@ -66,6 +89,13 @@
         margin-top: 2rem;
         margin-bottom: 6rem;
     }
+
+    .footer_heading{
+        font-size: 35px;
+        line-height: 39px;
+    }
+
+    
 }
 
 
@@ -78,4 +108,5 @@
         margin-top: 2rem;
         margin-bottom: 6rem;
     }
+    
 }

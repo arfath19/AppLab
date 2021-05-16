@@ -12,23 +12,81 @@
     color: #242f51;
 }
 
-@media (max-width:950px){
+@media screen and  (min-width: 400px) and (max-width: 639px){
     .holder{
-        width: 100% !important;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 15px;
+    }
+
+    .color-custom{
+        width: 108px;
+    }
+    .color-custom > strong{
+        font-size: 14px;
+    }
+
+    .holder>div>img{
+        margin-left: 34% !important;
+    }
+
+    .holder>div>div{
+        text-align: center !important;
+        float: unset !important;
+    }
+
+    .seperator{
+        font-size: 13px;
+        margin: 0 2px;
+    }
+   
+}
+
+@media  screen and  (min-width: 639px) and (max-width:942px){
+    .holder{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+   
+    .color-custom{
+        width: 110px;
+    }
+    .color-custom > strong{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    .seperator{
+        margin: 0 7px;
+    }
+
+    .holder>div{
+        padding: 0px;
+    }
+}
+
+/* @media (max-width:950px){
+    .holder{
+        width: 100% ;
         padding-left: 0;
     padding-right: 0;
     }
 }
 
-@media (max-width:840px){
+@media (min-width: 901px) and (max-width:1600px){
     .holder{
-        width: 100% !important;
+        width: 100% ;
         padding-left: 0;
-    padding-right: 0;
+        padding-right: 0;
     }
-}
+} */
 
-@media (min-width: 1638px){
+@media (min-width: 1601px) and (max-width:3040px){
     .seperator{
         font-size: 2.5rem;
         margin: 0 2.5rem;

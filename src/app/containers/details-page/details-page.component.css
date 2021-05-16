@@ -179,6 +179,19 @@
         border-radius: 50px;
         margin-top: 4.5rem;
     }
+    .adjuster{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .imagebox{
+        width: 50%;
+        margin: 0 auto;
+        float: unset;
+    }
+    .textbox{
+        width: 100%;
+    }
  }
  
 
@@ -187,6 +200,7 @@
     
     .detail_heading{
         font-size: 23px;
+        line-height: 40px;
     }
 
     .ellipse{
@@ -209,6 +223,10 @@
     .detail-text{
         line-height: 19px;
         font-size: 15px;
+    }
+
+    .textbox{
+        margin-top: -40px;
     }
 
 
@@ -251,6 +269,7 @@
     }
     .adjuster{
         margin-top: 155px;
+        margin-bottom: 115px;
     }
    
 }
@@ -270,18 +289,12 @@
         min-height: 75vh;
     }
 
-    .detail_heading{
-        line-height: 35px;
-    }
-
     .dummy_text{
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
-    .textbox{
-        padding-left: 8%;
-    }
+  
 
     .fast_heading{
         font-size: 19px;
