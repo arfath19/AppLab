@@ -19,6 +19,7 @@
 .links>*{
     padding: 25px;
     width: 50%;
+    cursor: pointer;
 }
 
 .different_background{
