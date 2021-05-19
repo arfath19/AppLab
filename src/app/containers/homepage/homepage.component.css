@@ -6,7 +6,7 @@
 }
 
 .bck_img{
-    background-image: url('assets/img/Banner-bg.png');
+    background-image: url('../../../assets/img/Banner-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     min-height: 110vh;
